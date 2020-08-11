@@ -9,6 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 11%;
+    max-width: 125px;
 }
 
 .center {
@@ -26,7 +27,8 @@ h1 {
     color: white;
     background: #F2855A;
     padding: 20px;
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
+    font-size: max(2.3vw, 36px);
     font-weight: 400;
 }
 
@@ -36,51 +38,53 @@ main {
 
 
 a:link {
-  color: #F2855A; 
-  text-decoration: none;
+    color: #F2855A; 
+    text-decoration: none;
 }
 
 a:visited {
-  color: #F2855A;
-  text-decoration: none;
+    color: #F2855A;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #F2855A;
-  background-color: transparent;
-  text-decoration: none;
+    color: #F2855A;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:active {
-  color: #F2855A;
-  background-color: transparent;
-  text-decoration: none;
+    color: #F2855A;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .button {
-   font-family: "Helvetica-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   margin: 0 auto;
-   display: block;
-   width: 10%;
-   text-align: center;
-   border-top: 1px solid #ffffff;
-   color: #ffffff;
-   background: white;
-   padding: 22px 18px;
-   font-size: 1.8vw;
-   text-decoration: none;
-   vertical-align: middle;
-   }
+    font-family: "Helvetica", "Helvetica", "Helvetica", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    margin: 0 auto; 
+    display: block;
+    /* width: 10%; */
+    width: 19vw;
+    max-width: 175px;
+    text-align: center;
+    color: #ffffff;
+    background: white;
+    padding: 22px 18px;
+    /* font-size: 1.8vw; */
+    font-size: max(1.1vw, 18px);
+    text-decoration: none;
+    vertical-align: middle;
+}
 
 .button:hover {
-   border-top-color: #fce7de;
-   background: #fce7de;
-   color: #ffffff;
-   }
+    border-top-color: #fce7de;
+    background: #fce7de;
+    color: #ffffff;
+}
 .button:active {
-   border-top-color: #ffffff;
-   background: #ffffff;
-   }
+    border-top-color: #ffffff;
+    background: #ffffff;
+}
 
 .image-block-row {
     display: flex;
@@ -99,22 +103,26 @@ a:active {
 
 
 footer {
-   color: white; 
-   background: #F2855A;
-   padding: 30px;
-   bottom: 0px;
-   width:100vw;
-   margin-bottom:0;
+    color: white; 
+    background: #F2855A;
+    /* padding: 30px; */
+    padding: 6vw;
+    bottom: 0px;
+    width: 100vw;
+    margin-bottom:0;
 }
 
 h2 {
     font-family: "Helvetica-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 1.6vw; 
+    /* font-size: 1.6vw; */
+    font-size: max(0.9vw, 10px); 
+    font-weight: 500;
 }
 
 .address {
-   font-family: "Helvetica-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-size: 1.3vw;
+    font-family: "Helvetica-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    /* font-size: 1.3vw; */
+    font-size: max(0.8vw, 10px); 
 }
 
 #instagram {
