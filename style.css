@@ -71,7 +71,7 @@ a:active {
     background: white;
     padding: 22px 18px;
     /* font-size: 1.8vw; */
-    font-size: max(1.1vw, 18px);
+    font-size: max(1.1vw, 24px);
     text-decoration: none;
     vertical-align: middle;
 }
@@ -101,6 +101,9 @@ a:active {
     padding: 13.5px;
 }
 
+.white-background {
+	background-color: white;
+}
 
 footer {
     color: white; 
