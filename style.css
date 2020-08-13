@@ -75,7 +75,7 @@ a:active {
   	border: none;
   	color: #F2855A;
   	padding: 22px 18px;
-  	width: 19vw;
+  	width: 30vw;
     max-width: 175px;
   	text-align: center;
   	text-decoration: none;
@@ -95,8 +95,8 @@ a:active {
 
 
 .button:active {
-    border-top-color: #ffffff;
-    background: #ffffff;
+    border-top-color: #fce7de;
+    background: #fce7de;
 }
 
 
