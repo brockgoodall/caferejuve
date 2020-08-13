@@ -101,6 +101,9 @@ a:active {
     padding: 13.5px;
 }
 
+@media only screen and (max-width: 600px) {
+}
+
 .white-background {
 	background-color: white;
 }
