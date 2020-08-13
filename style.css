@@ -71,7 +71,7 @@ a:active {
     background: white;
     padding: 22px 18px;
     /* font-size: 1.8vw; */
-    font-size: max(1.1vw, 24px);
+    font-size: max(1.1vw, 16px);
     text-decoration: none;
     vertical-align: middle;
 }
@@ -114,7 +114,8 @@ footer {
     /* padding: 30px; */
     padding: 6vw;
     bottom: 0px;
-    width: 100vw;
+    /* width: 100vw; */
+    width: auto;
     margin-bottom:0;
 }
 
